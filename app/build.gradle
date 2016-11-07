@@ -11,6 +11,14 @@ android {
         versionCode 701
         versionName "7.0.1"
     }
+
+    signingConfigs {
+        // your debug keystore
+        debug{
+            storeFile file("debug.keystore")
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false

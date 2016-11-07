@@ -96,7 +96,6 @@ public class LocationActivity extends Activity {
 		});
 	}
 
-
 	/*****
 	 * @see copy funtion to you project
 	 * 定位结果回调，重写onReceiveLocation方法，可以直接拷贝如下代码到自己工程中修改
